@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dycetix</title>
+    <link rel="stylesheet" href="dycetix-index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
+    <!-- web structure-->
+    <div class="wrapper">
+      <!-- box to display the web logo, search bar, and navigation bar  -->
+      <div class="menu-container" id="menu-scroll">
+
+        <!-- menu-data helps style things perfectly -->
+        <div class="menu-data">
+          <a href="dycetix-index.html" class="logo"></a>
+
+          <!-- nav toggle for small screen -->
+          <div class="contact-toggle-wrapper">
+            <div class="nav-toggle" id="nav-toggle">
+              <i class="fa-solid fa-bars nav-burger"></i>
+              <i class="fa-solid fa-x nav-close"></i>
+            </div>
+            <a href="#sign-up" class="contact-us"><i class="fa-solid fa-phone"></i></a>
+          </div>
+          <!-- end of nav toggle for small screens -->
+      
+          <!-- Navigation Bar Starts -->
+          <nav class="menu-bar" id="menu-bar-id">
+            <ul class="menu-bar-list">
+      
+              <!-- About Us Section -->
+              <li class="about">
+                <a class="menu-list">About Us<i class="fas fa-chevron-down icon dropdown-arrow"></i></a>
+                <ul class="submenu-list">
+                  <li><a href="index.html">About Us</a></li>
+                  <li><a href="values.html">Core Values</a></li>
+                  <li><a href="mission-vision.html">Mission & Vision</a></li>
+                  <li><a href="team.html">Our Team</a></li>
+                  <li><a href="news.html">News</a></li>
+                  <li><a href="career.html">Career Opportunities</a></li>
+                </ul>
+              </li>
+      
+              <!-- Services Section -->
+              <li class="services">
+                <a class="menu-list">Services<i class="fas fa-chevron-down icon dropdown-arrow"></i></a>
+                <div class="services-sub-menu">
+                  <div class="submenu-group">
+                    <strong>
+                      Software Development
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="softwaredevelopment.html">Custom-made software development</a></li>
+                      <li><a href="webdevelopment.html">Web development</a></li>
+                      <li><a href="mobiledevelopment.html">Mobile development</a></li>
+                      <li><a href="desktopdevelopment.html">Desktop development</a></li>
+                      <li><a href="databasedevelopment.html">Database development</a></li>
+                      <li><a href="clouddevelopment.html">Cloud Development</a></li>
+                      <li><a href="apidevelopment.html">API Development</a></li>
+                      <li><a href="softwaretesting.html">Software Testing</a></li>
+                    </ul>
+                  </div>
+                  <div class="submenu-group">
+                    <strong>
+                      Developers for Hire
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="webdevelopment.html">Web Developers (JavaScript, PHP)</a></li>
+                      <li><a href="androiddevelopment.html">Android Developers (Java)</a></li>
+                      <li><a href="iosdevelopment.html">iOS Developers (Swift)</a></li>
+                      <li><a href="desktopdevelopment.html">Desktop Developers (C#, C++)</a></li>
+                      <li><a href="backenddevelopment.html">Backend Developers (Python, Database Design)</a></li>
+                    </ul>
+                  </div>
+                  <div class="submenu-group">
+                    <strong>
+                      IT Support and Maintenance
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="#">Software Maintenance</a></li>
+                      <li><a href="#">Application Maintenance</a></li>
+                      <li><a href="#">Website Maintenance</a></li>
+                      <li><a href="#">Patch Management</a></li>
+                      <li><a href="#">Security Assistance</a></li>
+                      <li><a href="#">Help Desk Support</a></li>
+                      <li><a href="#">System Administration</a></li>
+                      <li><a href="#">Backup & Recovery</a></li>
+                    </ul>
+                  </div>
+                  <div class="submenu-group">
+                    <strong>
+                      Graphic Design
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="#">Business Cards</a></li>
+                      <li><a href="#">Flyers</a></li>
+                      <li><a href="#">Logos & Branding</a></li>
+                      <li><a href="#">Brochures & Posters</a></li>
+                      <li><a href="#">Social Media Graphics</a></li>
+                      <li><a href="#">Packaging Design</a></li>
+                      <li><a href="#">Web Graphics</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+      
+              <!-- Technologies Section -->
+              <li class="technologies">
+                <a class="menu-list">Technologies<i class="fas fa-chevron-down icon dropdown-arrow"></i></a>
+                <div class="technologies-sub-menu">
+                  <div class="submenu-group">
+                    <strong>
+                      Programming Languages
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="javascript.html">JavaScript</a></li>
+                      <li><a href="#">Java</a></li>
+                      <li><a href="#">C# / .NET</a></li>
+                      <li><a href="#">PHP</a></li>
+                      <li><a href="#">Python</a></li>
+                      <li><a href="#">C++</a></li>
+                    </ul>
+                  </div>
+                  <div class="submenu-group">
+                    <strong>
+                      Frameworks and Libraries
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="#">React (JavaScript)</a></li>
+                      <li><a href="#">Angular (JavaScript)</a></li>
+                      <li><a href="#">Laravel (PHP)</a></li>
+                      <li><a href="#">ASP.NET (C#)</a></li>
+                    </ul>
+                  </div>
+                  <div class="submenu-group">
+                    <strong>
+                      Database Technologies
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="#">MySQL</a></li>
+                      <li><a href="#">phpMyAdmin</a></li>
+                      <li><a href="#">SQL Server</a></li>
+                      <li><a href="#">Oracle</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+      
+              <!-- Industries Section -->
+              <li class="industries">
+                <a class="menu-list">Industries<i class="fas fa-chevron-down icon dropdown-arrow"></i></a>
+                <ul class="submenu-list">
+                  <li><a href="#">Retailer Sector</a></li>
+                  <li><a href="#">Banking and Finance</a></li>
+                  <li><a href="#">Insurance</a></li>
+                  <li><a href="#">Education</a></li>
+                  <li><a href="#">Healthcare</a></li>
+                  <li><a href="#">Manufacturing</a></li>
+                  <li><a href="#">Transportation and Logistics</a></li>
+                  <li><a href="#">Technology and Media</a></li>   
+                </ul>
+              </li>
+      
+              <!-- Get In Touch Button -->
+              <li id="signin">
+                <button class="get-in-touch" onclick="window.location.href='signin.html'">Get In Touch</button>
+              </li>
+            </ul>
+          </nav> <!-- Navigation Bar Ends -->
+        </div> <!-- menu-data ends here -->
+      </div><!-- menu-container ends here -->
+      <section class="retailer-introduction">
+        <div class="retailer-content">
+          <h2 class="retailer-heading">Ever wondered what it really means to be in retail?</h2>
+          <p class="retailer-description">
+            Retail isn't just about selling products—it's about understanding your customers, optimizing your operations, 
+            and staying ahead of industry trends. Whether you’re managing inventory, creating personalized shopping experiences, 
+            or expanding your online presence, the retail industry is fast-paced and constantly evolving.
+          </p>
+          
+          <p class="retailer-question">
+            Now that you know what retail is all about, <strong>are you in retail and looking for IT solutions to elevate your business?</strong>
+          </p>
+          
+          <p class="retailer-answer">
+            Dycetix is here to help! We provide innovative, scalable IT solutions tailored to the unique needs of your retail business. 
+            From streamlining operations to enhancing customer engagement, Dycetix has got you covered.
+          </p>
+          
+          <div class="retailer-cta-container">
+            <button class="retailer-cta-button" onclick="window.location.href='#contact'">
+              Request a Consultation
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="why-you-need-service">
+        <div class="why-you-need-service-content">
+          <h2 class="why-you-need-heading">Why Your Retail Business Needs Dycetix</h2>
+          <p class="why-you-need-description">
+            In today's competitive retail environment, staying ahead means adapting to the ever-evolving digital landscape. From streamlining operations to enhancing customer experiences, Dycetix offers tailored IT solutions that help your retail business grow, thrive, and innovate.
+          </p>
+          <p class="why-you-need-description">
+            Whether you're managing inventory, optimizing online sales, or leveraging customer data for marketing strategies, Dycetix has the expertise to help you achieve your goals with cutting-edge technology solutions.
+          </p>
+          <div class="why-you-need-features">
+            <h3 class="features-heading">Advantages of Dycetix Services for Retail</h3>
+            <ul class="features-list">
+              <li><i class="fas fa-check-circle"></i> <strong>**Improve Operational Efficiency**:</strong>  Automate processes and enhance productivity.</li>
+              <li><i class="fas fa-check-circle"></i> <strong>**Optimize Customer Experience**:</strong>  Provide seamless online and in-store experiences.</li>
+              <li><i class="fas fa-check-circle"></i> <strong>**Enhance Security**:</strong>  Protect sensitive customer data and transactions.</li>
+              <li><i class="fas fa-check-circle"></i> <strong>**Gain Actionable Insights**:</strong>  Use data-driven decisions to improve business performance.</li>
+            </ul>
+          </div>
+          <div class="why-you-need-cta">
+            <p>Ready to level up your retail business with cutting-edge technology?</p>
+            <button class="cta-button" onclick="window.location.href='#contact'">Get in Touch</button>
+          </div>
+        </div>
+      </section>
+      <section class="industries-we-serve">
+        <div class="industries-container">
+          <!-- Left Box (Non-Clickable) -->
+          
+      
+          <!-- Right Side (Industry Cards) -->
+          <div class="industries-cards">
+            <div class="industries-left-box">
+              <h3>More of the Industries We Serve</h3>
+              <p>Explore how Dycetix can help diverse industries thrive with tailored IT solutions.</p>
+              <div class="arrow-container">
+                <i class="fa-solid fa-arrow-right arrow-icon"></i>
+              </div>
+            </div>
+            <a href="#" class="industry-card">
+              <img src="banking.jpg" alt="Banking and Finance">
+              <p>Banking and Finance</p>
+            </a>
+            <a href="#" class="industry-card">
+              <img src="shopify.jpg" alt="Healthcare">
+              <p>E-commerce</p>
+            </a>
+            <a href="#" class="industry-card">
+              <img src="insurance.jpg" alt="Insurance">
+              <p>Insurance</p>
+            </a>
+            <a href="#" class="industry-card">
+              <img src="education.jpg" alt="Education">
+              <p>Education</p>
+            </a>
+            <a href="#" class="industry-card">
+              <img src="healthcare.jpg" alt="Healthcare">
+              <p>Healthcare</p>
+            </a>
+            <a href="#" class="industry-card">
+              <img src="manufacturing.jpg" alt="Manufacturing">
+              <p>Manufacturing</p>
+            </a>
+            <a href="#" class="industry-card">
+              <img src="logistics.jpg" alt="Transportation and Logistics">
+              <p>Transportation and Logistics</p>
+            </a>
+            <a href="#" class="industry-card">
+              <img src="technology.jpg" alt="Technology and Media">
+              <p>Technology and Media</p>
+            </a>
+            <div class="industries-left-box">
+              <h3>And many more industries tailored to your needs.</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="retail-help-section">
+        <div class="retail-help-container">
+          <!-- <div class="retail-help-content"> -->
+            <div class="retail-help-image">
+              <img src="retailer-help.jpg" alt="Retail Solutions">
+            </div>
+            <div class="retail-help-text">
+              <h2>How Can We Help You?</h2>
+              <p>
+                At Dycetix, we specialize in creating online platforms tailored for retail businesses, ensuring you establish a robust online presence that attracts and retains customers. 
+                Using cutting-edge technologies, we design and develop user-friendly websites and applications to help your business stand out and stay ahead of competitors.
+              </p>
+              <p>
+                But we don’t stop there—our services extend beyond development. We provide ongoing IT support and maintenance, so you can focus on running your business while we handle the technical 
+                complexities. Additionally, our graphic design team ensures your branding is consistent, modern, and visually appealing, leaving a lasting impression on your customers.
+              </p>
+              <p>
+                From e-commerce platforms to inventory management systems and everything in between, Dycetix has the tools and expertise to transform your retail operations and drive success.
+              </p>
+              <div class="retail-help-cta">
+                <a href="/contact-us" class="retail-help-cta-link">Let’s Build Your Retail Solution Together →</a>
+              </div>
+            </div>
+          <!-- </div> -->
+        </div>
+      </section>
+      <section class="tailored-solutions">
+        <div class="container">
+          <h2>Tailored Solutions for <span class="industry">Retailers</span></h2>
+          <p>
+            In today’s competitive <span class="industry">retail</span> landscape, standing out is essential. At Dycetix, we craft innovative and personalized IT solutions designed to address the unique needs of the <span class="industry">retail</span> industry. Whether you're looking to enhance your online presence, streamline your operations, or improve customer engagement, we have you covered.
+          </p>
+          <ul class="features">
+            <li><strong>Custom E-commerce Platforms:</strong> Build a seamless shopping experience with user-friendly, mobile-optimized e-commerce solutions tailored to your brand.</li>
+            <li><strong>Branding and Graphic Design:</strong> Stand out with visually captivating designs that resonate with your audience and communicate your brand’s story effectively.</li>
+            <li><strong>IT Support and Maintenance:</strong> Keep your operations running smoothly with proactive support and maintenance tailored to the dynamic needs of retailers.</li>
+            <li><strong>Inventory and Data Management Systems:</strong> Streamline your stock management and make data-driven decisions with customized tools and dashboards.</li>
+            <li><strong>Customer Engagement Tools:</strong> Leverage loyalty programs, personalized marketing, and feedback systems to keep your customers coming back.</li>
+          </ul>
+          <p>
+            By integrating cutting-edge technologies and industry insights, Dycetix helps <span class="industry">retailers</span> like you stay ahead of the curve, driving growth and efficiency in every aspect of your business.
+          </p>
+          <div class="cta">
+            <a href="/industries/retail" class="cta-link">Explore Our Retail Solutions →</a>
+          </div>
+        </div>
+      </section>
+      <section class="iot-solutions">
+        <div class="iot-container">
+          <div class="iot-image-content">
+            <img src="IOT.jpg" alt="IoT Solutions in Action" />
+          </div>
+          <div class="iot-text-content">
+            <h2>Empowering Your Business with <span class="iot-highlight">IoT Solutions</span></h2>
+            <p>
+              The Internet of Things (IoT) is revolutionizing industries by connecting devices, systems, and people. At Dycetix, we specialize in designing innovative IoT solutions tailored to your business needs. From smart devices to automated processes, we help you harness the power of IoT to improve efficiency, enhance customer experiences, and unlock new revenue streams.
+            </p>
+            <ul class="iot-benefits">
+              <li><strong>Smart Automation:</strong> Automate repetitive tasks and streamline operations with IoT-enabled systems.</li>
+              <li><strong>Real-Time Insights:</strong> Gain actionable insights with connected sensors and data analytics.</li>
+              <li><strong>Enhanced Security:</strong> Protect your assets with advanced IoT-driven monitoring and control systems.</li>
+              <li><strong>Remote Management:</strong> Manage your infrastructure and devices from anywhere, ensuring uninterrupted performance.</li>
+              <li><strong>Custom IoT Development:</strong> Get bespoke IoT solutions that align with your unique business goals.</li>
+            </ul>
+            <!-- <div class="cta">
+              <a href="/services/iot" class="cta-link">Explore IoT Solutions →</a>
+            </div> -->
+          </div>
+          
+        </div>
+      </section>
+      <section class="retailer-development-lifecycle">
+        <div class="retailer-development-lifecycle-container">
+          <h2>Our Development Lifecycle for Retailers</h2>
+          <p>At Dycetix, we follow a structured approach to deliver innovative and efficient solutions tailored for retailers.</p>
+          <div class="lifecycle-stages-container">
+            <div class="development-lifecycle-stage">
+              <i class="fas fa-search fa-3x"></i>
+              <h3>Discovery & Analysis</h3>
+              <p>Understanding retailer needs and challenges to define project goals.</p>
+            </div>
+            <div class="development-lifecycle-stage">
+              <i class="fas fa-project-diagram fa-3x"></i>
+              <h3>Planning & Design</h3>
+              <p>Creating a roadmap and detailed designs for retail solutions.</p>
+            </div>
+            <div class="development-lifecycle-stage">
+              <i class="fas fa-code fa-3x"></i>
+              <h3>Development</h3>
+              <p>Building robust systems and integrating tailored functionalities.</p>
+            </div>
+            <div class="development-lifecycle-stage">
+              <i class="fas fa-vials fa-3x"></i>
+              <h3>Testing & Optimization</h3>
+              <p>Ensuring seamless functionality and performance across platforms.</p>
+            </div>
+            <div class="development-lifecycle-stage">
+              <i class="fas fa-cloud-upload-alt fa-3x"></i>
+              <h3>Deployment</h3>
+              <p>Deploying solutions with minimal disruption to operations.</p>
+            </div>
+            <div class="development-lifecycle-stage">
+              <i class="fas fa-life-ring fa-3x"></i>
+              <h3>Training & Support</h3>
+              <p>Providing training and ongoing support to maximize efficiency.</p>
+            </div>
+          </div>
+          <div class="development-lifecycle-cta">
+            <a href="/contact" class="development-lifecycle-cta-link">Start Your Project</a>
+          </div>
+        </div>
+      </section>
+      <section class="tech-section">
+        <div class="tech-section-container">
+          <header>
+            <h1 class="tech-section-h1">Our Technologies Used to Bring Your Project to Life          </h1>
+            <p class="tech-section-p1">
+              Our tech stack evolves constantly, embracing cutting-edge advancements while staying compatible with industry standards.  
+              Below are the programming languages we use to bring your software visions to life.
+            </p>
+          </header>
+          <div class="tech-section-grid">
+            <!-- JavaScript Card -->
+            <a href="javascript-details.html" class="tech-section-card">
+              <img src="javascript.svg" alt="JavaScript Logo">
+              <div class="info">
+                <h3>JavaScript</h3>
+                <p>Dynamic language for interactive frontend and backend development.</p>
+              </div>
+              <button class="tech-learn-more-btn">Learn More</button>
+            </a>
+            <!-- Python Card -->
+            <a href="python-details.html" class="tech-section-card">
+              <img src="python.png" alt="Python Logo">
+              <div class="info">
+                <h3>Python</h3>
+                <p>Versatile language for AI, machine learning, and data analysis.</p>
+              </div>
+              <button class="tech-learn-more-btn">Learn More</button>
+            </a>
+            <!-- Java Card -->
+            <a href="java-details.html" class="tech-section-card">
+              <img src="java.svg" alt="Java Logo">
+              <div class="info">
+                <h3>Java</h3>
+                <p>Robust, platform-independent language for enterprise and Android applications.</p>
+              </div>
+              <button class="tech-learn-more-btn">Learn More</button>
+            </a>
+            <!-- C# Card -->
+            <a href="csharp-details.html" class="tech-section-card">
+              <img src="csharp.svg" alt="C# Logo">
+              <div class="info">
+                <h3>C#</h3>
+                <p>Modern, object-oriented language for building Windows and cross-platform applications.</p>
+              </div>
+              <button class="tech-learn-more-btn">Learn More</button>
+            </a>
+            <!-- C++ Card -->
+            <a href="cpp-details.html" class="tech-section-card">
+              <img src="c-plusplus.png" alt="C++ Logo">
+              <div class="info">
+                <h3>C++</h3>
+                <p>High-performance language widely used for system software development.</p>
+              </div>
+              <button class="tech-learn-more-btn">Learn More</button>
+            </a>
+            <!-- PHP Card -->
+            <a href="php-details.html" class="tech-section-card">
+              <img src="php.png" alt="PHP Logo">
+              <div class="info">
+                <h3>PHP</h3>
+                <p>Popular scripting language for building dynamic web applications and APIs.</p>
+              </div>
+              <button class="tech-learn-more-btn">Learn More</button>
+            </a>
+            </div>
+            <h2 class="database-header">Database Solutions We Rely On</h2>
+            <p class="database-p">
+              Our robust database solutions power your data-driven applications. Below are the key technologies we rely on to bring your data-driven applications to life.
+            </p>
+              
+            <div class="database-grid">
+              <!-- MySQL Card -->
+              <a href="mysql-details.html" class="database-card">
+              <img src="mysql.svg" alt="MySQL Logo">
+              <div class="tech-info">
+                  <h3>MySQL</h3>
+                  <p>Open-source and fast relational database system known for its scalability and reliability in web applications.</p>
+              </div>
+              <button class="tech-learn-more-btn">Learn More</button>
+              </a>
+
+              <!-- PHPMyAdmin Card -->
+              <a href="phpmyadmin-details.html" class="database-card">
+              <img src="admin.jpg" alt="PHPMyAdmin Logo">
+              <div class="tech-info">
+                  <h3>PHP MyAdmin</h3>
+                  <p>Web-based tool for managing MySQL databases, providing an easy-to-use interface for administration and queries.</p>
+              </div>
+              <button class="tech-learn-more-btn">Learn More</button>
+              </a>
+
+              <!-- Oracle Card -->
+              <a href="oracle-details.html" class="database-card">
+              <img src="file.png" alt="Oracle Logo">
+              <div class="tech-info">
+                  <h3>Oracle Database</h3>
+                  <p>Enterprise-level RDBMS known for handling large datasets and complex transactions with high availability and security.</p>
+              </div>
+              <button class="tech-learn-more-btn">Learn More</button>
+              </a>
+
+              <!-- SQL Server Card -->
+              <a href="sqlserver-details.html" class="database-card">
+              <img src="sql-server.png" alt="SQL Server Logo">
+              <div class="tech-info">
+                  <h3>SQL Server</h3>
+                  <p>Robust database management system by Microsoft, optimized for enterprise applications with advanced analytics and BI tools.</p>
+              </div>
+              <button class="tech-learn-more-btn">Learn More</button>
+              </a>
+            </div>
+        </div>
+      </section>
+      <section class="retailer-cost-of-software">
+        <div class="retailer-cost-container">
+          <h2 class="retailer-cost-section-title">Understanding the Cost of Software Development for Retailers</h2>
+          <p class="retailer-cost-section-subheading">Breaking Down the Factors that Influence Development Costs</p>
+        
+          <div class="retailer-cost-breakdown">
+            <div class="retailer-cost-factor">
+              <h3>Complexity of Features</h3>
+              <p>The more complex your software needs to be—such as integrating point-of-sale systems, payment gateways, or custom analytics—the higher the development cost.</p>
+            </div>
+            <div class="retailer-cost-factor">
+              <h3>Design and User Experience</h3>
+              <p>A polished user interface (UI) and user experience (UX) design require more time and expertise, which can increase the overall cost.</p>
+            </div>
+            <div class="retailer-cost-factor">
+              <h3>Integration with Existing Systems</h3>
+              <p>Integrating your new software with existing systems like inventory management or customer databases can add to the cost, depending on complexity.</p>
+            </div>
+            <div class="retailer-cost-factor">
+              <h3>Maintenance and Support</h3>
+              <p>Ongoing maintenance, updates, and customer support post-launch are crucial and should be considered as part of the total cost of development.</p>
+            </div>
+          </div>
+        
+          <div class="retailer-cost-estimate">
+            <h3>Estimated Cost Range</h3>
+            <p>For retailers, custom software development can range from $X,000 for basic solutions to $Y,000 for more advanced and integrated systems.</p>
+          </div>
+        
+          <div class="retailer-cost-cta">
+            <a href="#contact" class="retailer-cost-cta-btn">Get a Custom Quote</a>
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- beginning of footer section -->
+      <footer class="footer-container">
+        <!-- <div class="footer-content-container"> -->
+          <!-- Footer Header -->
+          <div class="footer-header">
+              <div class="footer-text">
+                  <h2>We're Here to Make Things Happen</h2>
+                  <p>Let’s work together to build something extraordinary. Whether you need a consultation, a custom solution, or just have questions, we’re here to help.</p>
+              </div>
+          </div>
+      
+          <!-- Main Footer Section -->
+          <div class="footer-main">
+              <!-- Left Section -->
+              <div class="footer-left">
+                  <a href="index">
+                    <img src="dycetix-logo.png" alt="Dycetix Logo" class="footer-logo">
+                  </a>
+                    <!-- <h2>Dycetix</h2> -->
+                    <p>Transforming ideas into reality, one solution at a time.</p>
+              </div>
+      
+              <!-- Right Sections -->
+              <div class="footer-right">
+                  <!-- Contact Section -->
+                  <div class="footer-section">
+                      <h3>Contact Us</h3>
+                      <!-- <p>Email: contact@dycetix.com</p>
+                      <p>Phone: +123-456-7890</p> -->
+                      
+                      <a href="#sign-up" ><i class="fa-solid fa-phone phone-footer"></i>+123-456-7890</a>
+                      <a href="#sign-up"><i class="fa-brands fa-whatsapp"></i>+123-456-7890</a>
+                      <a href="#sign-in"><i class="fa-regular fa-envelope"></i>contact@dycetix.com</a>
+                  </div>
+      
+                  <!-- Account Section -->
+                  <div class="footer-section">
+                      <h3>Account</h3>
+                      <a href="#sign-in">Sign In</a>
+                      <a href="#sign-up">Sign Up</a>
+                  </div>
+      
+                  <!-- Sitemap Section -->
+                  <div class="footer-section">
+                      <h3>Sitemap</h3>
+                      <a href="#about">About Us</a>
+                      <a href="#services">Services</a>
+                      <a href="#services">Technologies</a>
+                      <a href="#contact">Get In Touch</a>
+                      <a href="#contact">Home</a>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-social">
+            <hr class="social-line-left">
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-square-youtube"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <hr class="social-line-right">
+          </div>
+
+          <!-- Bottom Section -->
+          <div class="footer-bottom">
+              <p>© 2024 Dycetix. All Rights Reserved.</p>
+              <p>
+                  <a href="#privacy">Privacy Policy</a> |
+                  <a href="#help">Help</a> |
+                  <a href="#legal">Terms of Use</a>
+              </p>
+          </div>
+        <!-- </div> -->
+      </footer>
+      <!-- end of footer section -->  
+    </div>
+    <!-- end of wrapper -->
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script src="dycetix-user-interface.js"></script>
+    
+  </body> <!-- end of body -->
+</html><!-- end of index structure -->

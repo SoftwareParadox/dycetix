@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dycetix</title>
+    <link rel="stylesheet" href="dycetix-index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
+    <!-- web structure-->
+    <div class="wrapper">
+      <!-- box to display the web logo, search bar, and navigation bar  -->
+      <div class="menu-container" id="menu-scroll">
+
+        <!-- menu-data helps style things perfectly -->
+        <div class="menu-data">
+          <a href="dycetix-index.html" class="logo"></a>
+
+          <!-- nav toggle for small screen -->
+          <div class="contact-toggle-wrapper">
+            <div class="nav-toggle" id="nav-toggle">
+              <i class="fa-solid fa-bars nav-burger"></i>
+              <i class="fa-solid fa-x nav-close"></i>
+            </div>
+            <a href="#sign-up" class="contact-us"><i class="fa-solid fa-phone"></i></a>
+          </div>
+          <!-- end of nav toggle for small screens -->
+      
+          <!-- Navigation Bar Starts -->
+          <nav class="menu-bar" id="menu-bar-id">
+            <ul class="menu-bar-list">
+      
+              <!-- About Us Section -->
+              <li class="about">
+                <a class="menu-list">About Us<i class="fas fa-chevron-down icon dropdown-arrow"></i></a>
+                <ul class="submenu-list">
+                  <li><a href="index.html">About Us</a></li>
+                  <li><a href="values.html">Core Values</a></li>
+                  <li><a href="mission-vision.html">Mission & Vision</a></li>
+                  <li><a href="team.html">Our Team</a></li>
+                  <li><a href="news.html">News</a></li>
+                  <li><a href="career.html">Career Opportunities</a></li>
+                </ul>
+              </li>
+      
+              <!-- Services Section -->
+              <li class="services">
+                <a class="menu-list">Services<i class="fas fa-chevron-down icon dropdown-arrow"></i></a>
+                <div class="services-sub-menu">
+                  <div class="submenu-group">
+                    <strong>
+                      Software Development
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="softwaredevelopment.html">Custom-made software development</a></li>
+                      <li><a href="webdevelopment.html">Web development</a></li>
+                      <li><a href="mobiledevelopment.html">Mobile development</a></li>
+                      <li><a href="desktopdevelopment.html">Desktop development</a></li>
+                      <li><a href="databasedevelopment.html">Database development</a></li>
+                      <li><a href="clouddevelopment.html">Cloud Development</a></li>
+                      <li><a href="apidevelopment.html">API Development</a></li>
+                      <li><a href="softwaretesting.html">Software Testing</a></li>
+                    </ul>
+                  </div>
+                  <div class="submenu-group">
+                    <strong>
+                      Developers for Hire
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="webdevelopment.html">Web Developers (JavaScript, PHP)</a></li>
+                      <li><a href="androiddevelopment.html">Android Developers (Java)</a></li>
+                      <li><a href="iosdevelopment.html">iOS Developers (Swift)</a></li>
+                      <li><a href="desktopdevelopment.html">Desktop Developers (C#, C++)</a></li>
+                      <li><a href="backenddevelopment.html">Backend Developers (Python, Database Design)</a></li>
+                    </ul>
+                  </div>
+                  <div class="submenu-group">
+                    <strong>
+                      IT Support and Maintenance
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="#">Software Maintenance</a></li>
+                      <li><a href="#">Application Maintenance</a></li>
+                      <li><a href="#">Website Maintenance</a></li>
+                      <li><a href="#">Patch Management</a></li>
+                      <li><a href="#">Security Assistance</a></li>
+                      <li><a href="#">Help Desk Support</a></li>
+                      <li><a href="#">System Administration</a></li>
+                      <li><a href="#">Backup & Recovery</a></li>
+                    </ul>
+                  </div>
+                  <div class="submenu-group">
+                    <strong>
+                      Graphic Design
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="#">Business Cards</a></li>
+                      <li><a href="#">Flyers</a></li>
+                      <li><a href="#">Logos & Branding</a></li>
+                      <li><a href="#">Brochures & Posters</a></li>
+                      <li><a href="#">Social Media Graphics</a></li>
+                      <li><a href="#">Packaging Design</a></li>
+                      <li><a href="#">Web Graphics</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+      
+              <!-- Technologies Section -->
+              <li class="technologies">
+                <a class="menu-list">Technologies<i class="fas fa-chevron-down icon dropdown-arrow"></i></a>
+                <div class="technologies-sub-menu">
+                  <div class="submenu-group">
+                    <strong>
+                      Programming Languages
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="#">JavaScript</a></li>
+                      <li><a href="#">Java</a></li>
+                      <li><a href="#">C# / .NET</a></li>
+                      <li><a href="#">PHP</a></li>
+                      <li><a href="#">Python</a></li>
+                      <li><a href="#">C++</a></li>
+                    </ul>
+                  </div>
+                  <div class="submenu-group">
+                    <strong>
+                      Frameworks and Libraries
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="#">React (JavaScript)</a></li>
+                      <li><a href="#">Angular (JavaScript)</a></li>
+                      <li><a href="#">Laravel (PHP)</a></li>
+                      <li><a href="#">ASP.NET (C#)</a></li>
+                    </ul>
+                  </div>
+                  <div class="submenu-group">
+                    <strong>
+                      Database Technologies
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="#">MySQL</a></li>
+                      <li><a href="#">phpMyAdmin</a></li>
+                      <li><a href="#">SQL Server</a></li>
+                      <li><a href="#">Oracle</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+      
+              <!-- Industries Section -->
+              <li class="industries">
+                <a class="menu-list">Industries<i class="fas fa-chevron-down icon dropdown-arrow"></i></a>
+                <ul class="submenu-list">
+                  <li><a href="retailer.html">Retailer Sector</a></li>
+                  <li><a href="#">Banking and Finance</a></li>
+                  <li><a href="#">Insurance</a></li>
+                  <li><a href="#">Education</a></li>
+                  <li><a href="#">Healthcare</a></li>
+                  <li><a href="#">Manufacturing</a></li>
+                  <li><a href="#">Transportation and Logistics</a></li>
+                  <li><a href="#">Technology and Media</a></li>   
+                </ul>
+              </li>
+      
+              <!-- Get In Touch Button -->
+              <li id="signin">
+                <button class="get-in-touch" onclick="window.location.href='signin.html'">Get In Touch</button>
+              </li>
+            </ul>
+          </nav> <!-- Navigation Bar Ends -->
+        </div> <!-- menu-data ends here -->
+      </div><!-- menu-container ends here -->
+      <section class="javascript-intro">
+        <div class="javascript-container">
+          <div class="javascript-content">
+            <h1>Unlock the Power of the Web with JavaScript</h1>
+            <p>
+              JavaScript is the backbone of dynamic and interactive web experiences, powering everything from responsive user interfaces to real-time applications. 
+              At Dycetix, we leverage the unparalleled capabilities of JavaScript to build fast, scalable, and user-friendly solutions tailored to your needs. Whether it's front-end elegance, 
+              back-end efficiency, or seamless integration, JavaScript remains at the core of modern technology — and we're here to harness its full potential for your business.
+            </p>
+            <button class="javascript-cta-btn">Let's discuss your project</button>
+          </div>
+          <!-- <div class="javascript-visuals">
+            <img src="javascript.jpg" alt="JavaScript illustration" />
+          </div> -->
+        </div>
+      </section>
+      <section class="javascript-usage">
+        <div class="javascript-usage-container">
+          <h2>Where is JavaScript Mostly Used?</h2>
+          <p>
+            JavaScript's adaptability makes it an essential technology across multiple industries, from powering e-commerce platforms to enabling real-time communication apps.
+          </p>
+          <div class="javascript-usage-cases">
+            <div class="javascript-usage-case">
+              <img src="javasript-web.jpg" alt="Interactive Web Interfaces">
+              <h3>Interactive Web Interfaces</h3>
+              <p>Enhancing user engagement with dynamic and responsive designs.</p>
+            </div>
+            <div class="javascript-usage-case">
+              <img src="javascript-app.jpg" alt="Mobile App Development">
+              <h3>Mobile App Development</h3>
+              <p>Building cross-platform apps with frameworks like React Native.</p>
+            </div>
+            <div class="javascript-usage-case">
+              <img src="server-node.jpg" alt="Server-Side Applications">
+              <h3>Server-Side Applications</h3>
+              <p>Powerful back-end solutions using Node.js.</p>
+            </div>
+            <div class="javascript-usage-case">
+              <img src="javascript-chart.jpg" alt="Data Visualization">
+              <h3>Data Visualization</h3>
+              <p>Creating interactive charts and dashboards.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="why-choose-dycetix-javascript">
+        <div class="why-choose-dycetix-container-javascript">
+          <div class="text-container-javascript">
+            <h2>Why Choose Dycetix for JavaScript Projects?</h2>
+            <p>At Dycetix, we bring unmatched expertise in JavaScript development, offering innovative and scalable solutions tailored to your business needs. 
+                Whether you're looking to enhance user engagement with dynamic interfaces or build robust back-end applications, our team is dedicated to delivering exceptional results.
+                Here's why you should choose us for your next JavaScript project:</p>
+            <ul class="text-container-javascript-list">
+              <li><strong>Expertise Across Multiple Frameworks:</strong> From React and Angular to Node.js and Express, we specialize in the latest JavaScript technologies to create cutting-edge solutions.</li>
+              <li><strong>Commitment to Quality:</strong> We follow industry best practices to ensure code quality, maintainability, and scalability, so your solution grows with your business.</li>
+              <li><strong>Agile and Transparent Process:</strong> Our agile approach allows for flexibility and timely delivery. We keep you in the loop every step of the way, ensuring your project stays on track.</li>
+              <li><strong>Focus on Your Success:</strong> We don't just build projects; we focus on delivering real business value by aligning your technology needs with your goals.</li>
+            </ul>
+          </div>
+          <div class="image-container-javascript">
+            <img src="javascript-work-us.jpg" alt="JavaScript Development">
+          </div>
+        </div>
+      </section>
+      <section class="tech-carousel-javascript">
+        <div class="tech-carousel-wrapper-javascript">
+          <div class="text-box-carousel-javascript">
+            <p>Discover more of our technologies</p>
+            <i class="fas fa-arrow-right"></i>
+          </div>
+          <div class="carousel-slide-javascript">
+            <div class="carousel-container-javascript">
+              <div class="carousel-item-javascript" onclick="window.location.href='javascript.html'">
+                <img src="javascript.svg" alt="JavaScript">
+                <p>JavaScript</p>
+                <span class="see-more">See More</span>
+              </div>
+              <div class="carousel-item-javascript" onclick="window.location.href='java.html'">
+                <img src="java.svg" alt="Java">
+                <p>Java</p>
+                <span class="see-more">See More</span>
+              </div>
+              <div class="carousel-item-javascript" onclick="window.location.href='csharp.html'">
+                <img src="csharp.svg" alt="C#">
+                <p>C#</p>
+                <span class="see-more">See More</span>
+              </div>
+              <div class="carousel-item-javascript" onclick="window.location.href='cpp.html'">
+                <img src="c-plusplus.png" alt="C++">
+                <p>C++</p>
+                <span class="see-more">See More</span>
+              </div>
+              <div class="carousel-item-javascript" onclick="window.location.href='python.html'">
+                <img src="python.png" alt="Python">
+                <p>Python</p>
+                <span class="see-more">See More</span>
+              </div>
+              <div class="carousel-item-javascript" onclick="window.location.href='php.html'">
+                <img src="php.png" alt="PHP">
+                <p>PHP</p>
+                <span class="see-more">See More</span>
+              </div>
+              <div class="carousel-item-javascript" onclick="window.location.href='phpmyadmin.html'">
+                <img src="mysql.svg" alt="phpMyAdmin">
+                <p>phpMyAdmin</p>
+                <span class="see-more">See More</span>
+              </div>
+              <div class="carousel-item-javascript" onclick="window.location.href='mysql.html'">
+                <img src="mysql.svg" alt="MySQL">
+                <p>MySQL</p>
+                <span class="see-more">See More</span>
+              </div>
+              <div class="carousel-item-javascript" onclick="window.location.href='sqlserver.html'">
+                <img src="mysql.svg" alt="SQL Server">
+                <p>SQL Server</p>
+                <span class="see-more">See More</span>
+              </div>
+              <div class="carousel-item-javascript" onclick="window.location.href='oracle.html'">
+                <img src="mysql.svg" alt="Oracle">
+                <p>Oracle</p>
+                <span class="see-more">See More</span>
+              </div>
+            </div>
+            <div class="carousel-buttons-javascript">
+              <button class="prev-btn-javascript">&#10094;</button>
+              <button class="next-btn-javascript">&#10095;</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="our-approach-javascript">
+        <div class="our-approach-container-javascript">
+          <h2>Our Approach for JavaScript Projects</h2>
+          
+          <div class="step-javascript">
+            <h3>1. Discovery and Planning</h3>
+            <p>We begin every JavaScript project by understanding your requirements, goals, and vision. This involves:</p>
+            <ul>
+              <li>Collaborating with you to define the project scope.</li>
+              <li>Identifying key features and user flows.</li>
+              <li>Selecting the best JavaScript libraries, frameworks, and tools tailored to your needs.</li>
+            </ul>
+            <p><strong>Deliverable:</strong> A clear roadmap for your JavaScript project.</p>
+          </div>
+      
+          <div class="step-javascript">
+            <h3>2. UI/UX Design and Prototyping</h3>
+            <p>A seamless user experience is at the core of every successful JavaScript application. Our design process includes:</p>
+            <ul>
+              <li>Creating interactive prototypes using tools like Figma or Adobe XD.</li>
+              <li>Ensuring responsive designs for all screen sizes.</li>
+              <li>Testing the design flow with real users before development.</li>
+            </ul>
+            <p><strong>Deliverable:</strong> High-fidelity wireframes and prototypes ready for development.</p>
+          </div>
+      
+          <div class="step-javascript">
+            <h3>3. Development and Coding</h3>
+            <p>Our JavaScript development process is clean, efficient, and scalable. Steps include:</p>
+            <ul>
+              <li>Writing modular and maintainable JavaScript code.</li>
+              <li>Integrating popular frameworks like React, Vue.js, or Angular for advanced functionality.</li>
+              <li>Following industry best practices for performance and security.</li>
+            </ul>
+            <p><strong>Deliverable:</strong> A fully functional and optimized application.</p>
+          </div>
+      
+          <div class="step-javascript">
+            <h3>4. Testing and Quality Assurance</h3>
+            <p>We ensure your application works flawlessly through rigorous testing:</p>
+            <ul>
+              <li>Conducting unit, integration, and end-to-end testing.</li>
+              <li>Identifying and resolving bugs early to save time and cost.</li>
+              <li>Ensuring cross-browser and device compatibility.</li>
+            </ul>
+            <p><strong>Deliverable:</strong> A bug-free and polished product.</p>
+          </div>
+      
+          <div class="step-javascript">
+            <h3>5. Deployment and Maintenance</h3>
+            <p>Our commitment doesn't end at delivery. Post-launch, we offer:</p>
+            <ul>
+              <li>Seamless deployment to your chosen platform or hosting service.</li>
+              <li>Continuous monitoring and performance optimization.</li>
+              <li>Ongoing updates to keep your JavaScript application secure and up-to-date.</li>
+            </ul>
+            <p><strong>Deliverable:</strong> A live, robust application with ongoing support.</p>
+          </div>
+      
+          <div class="why-choose-us-javascript">
+            <h3>Why Choose Us?</h3>
+            <ul>
+              <li>Expert developers with deep knowledge of modern JavaScript technologies.</li>
+              <li>Transparent communication and regular progress updates.</li>
+              <li>Focus on delivering value and exceeding client expectations.</li>
+            </ul>
+            <a href="#contact-us" class="cta-button">Get Started Today</a>
+          </div>
+        </div>
+      </section>
+      <section class="advantages-circle-javascript">
+        <div class="container-advantages-circle-javascript">
+          <h2>Advantages of Using JavaScript for Your Project</h2>
+          <div class="circle-container-advantages-circle-javascript">
+            <div class="circle-javascript">
+              <h3>Scalability</h3>
+              <p>Adapt to growth effortlessly.</p>
+            </div>
+            <div class="circle-javascript">
+              <h3>Speed</h3>
+              <p>Boost application responsiveness.</p>
+            </div>
+            <div class="circle-javascript">
+              <h3>Versatility</h3>
+              <p>Front-end, back-end, or full-stack.</p>
+            </div>
+            <div class="circle-javascript">
+              <h3>Community</h3>
+              <p>Benefit from an active ecosystem.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="best-practices-javascript">
+        <div class="container-best-practices-javascript">
+          <h2>Best Practices to Ensure Success</h2>
+          <div class="accordion">
+            <div class="accordion-item">
+              <h3 class="accordion-header">1. Code Quality Assurance</h3>
+              <div class="accordion-content">
+                <p>We write clean, maintainable, and well-documented code to ensure long-term reliability and scalability.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">2. Agile Development</h3>
+              <div class="accordion-content">
+                <p>Our agile methodology ensures transparency, flexibility, and regular progress updates throughout the project lifecycle.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">3. Rigorous Testing</h3>
+              <div class="accordion-content">
+                <p>We perform comprehensive testing to eliminate bugs, optimize performance, and ensure a seamless user experience.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pricing-developer-hire">
+        <div class="container-developer-hire">
+          <h2>JavaScript Developer for hire</h2>
+          <p>Transparent and competitive rates for top-notch JavaScript programming services. Choose the plan that best suits your project needs.</p>
+      
+          <div class="pricing-table-developer-hire">
+            <div class="pricing-card-developer-hire">
+              <h3>Junior Developer</h3>
+              <p class="rate-developer-hire">$30/hour</p>
+              <ul>
+                <li>Basic JavaScript coding</li>
+                <li>Bug fixing</li>
+                <li>Front-end enhancements</li>
+              </ul>
+              <button>Hire Now</button>
+            </div>
+            
+            <div class="pricing-card-developer-hire featured">
+              <h3>Mid-Level Developer</h3>
+              <p class="rate-developer-hire">$50/hour</p>
+              <ul>
+                <li>Advanced front-end development</li>
+                <li>API integration</li>
+                <li>Performance optimization</li>
+              </ul>
+              <button>Hire Now</button>
+            </div>
+      
+            <div class="pricing-card-developer-hire">
+              <h3>Senior Developer</h3>
+              <p class="rate-developer-hire">$80/hour</p>
+              <ul>
+                <li>Full-stack JavaScript expertise</li>
+                <li>Architectural design</li>
+                <li>Scalable solutions</li>
+              </ul>
+              <button>Hire Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="javascript-faq-section" class="faq-section">
+        <div class="faq-section-content-container">
+            <div class="faq-image">
+                <img src="javascript.svg" alt="JavaScript illustration">
+            </div>
+            <div class="faq-container">
+                <h2>Frequently Asked Questions about JavaScript</h2>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is JavaScript used for?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>JavaScript is primarily used to create interactive and dynamic web pages. It powers features like animations, forms, and content updates without reloading the page.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Is JavaScript the same as Java?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No, JavaScript and Java are distinct programming languages. JavaScript is primarily for web development, while Java is used for various applications, including desktop, mobile, and enterprise software.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How can I learn JavaScript effectively?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can start by learning the basics through online tutorials, coding platforms, and books. Practice by building small projects and exploring JavaScript frameworks like React or Vue.js.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What are JavaScript frameworks and libraries?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Frameworks like React, Angular, and Vue.js provide pre-built tools and patterns for building web applications. Libraries, such as jQuery and Lodash, offer reusable functions to simplify coding tasks.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can JavaScript be used for backend development?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, JavaScript can be used for backend development with environments like Node.js, enabling developers to build full-stack applications using a single language.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    
+      
+      <!-- beginning of footer section -->
+      <footer class="footer-container">
+        <!-- <div class="footer-content-container"> -->
+          <!-- Footer Header -->
+          <div class="footer-header">
+              <div class="footer-text">
+                  <h2>We're Here to Make Things Happen</h2>
+                  <p>Let’s work together to build something extraordinary. Whether you need a consultation, a custom solution, or just have questions, we’re here to help.</p>
+              </div>
+          </div>
+      
+          <!-- Main Footer Section -->
+          <div class="footer-main">
+              <!-- Left Section -->
+              <div class="footer-left">
+                  <a href="index">
+                    <img src="dycetix-logo.png" alt="Dycetix Logo" class="footer-logo">
+                  </a>
+                    <!-- <h2>Dycetix</h2> -->
+                    <p>Transforming ideas into reality, one solution at a time.</p>
+              </div>
+      
+              <!-- Right Sections -->
+              <div class="footer-right">
+                  <!-- Contact Section -->
+                  <div class="footer-section">
+                      <h3>Contact Us</h3>
+                      <!-- <p>Email: contact@dycetix.com</p>
+                      <p>Phone: +123-456-7890</p> -->
+                      
+                      <a href="#sign-up" ><i class="fa-solid fa-phone phone-footer"></i>+123-456-7890</a>
+                      <a href="#sign-up"><i class="fa-brands fa-whatsapp"></i>+123-456-7890</a>
+                      <a href="#sign-in"><i class="fa-regular fa-envelope"></i>contact@dycetix.com</a>
+                  </div>
+      
+                  <!-- Account Section -->
+                  <div class="footer-section">
+                      <h3>Account</h3>
+                      <a href="#sign-in">Sign In</a>
+                      <a href="#sign-up">Sign Up</a>
+                  </div>
+      
+                  <!-- Sitemap Section -->
+                  <div class="footer-section">
+                      <h3>Sitemap</h3>
+                      <a href="#about">About Us</a>
+                      <a href="#services">Services</a>
+                      <a href="#services">Technologies</a>
+                      <a href="#contact">Get In Touch</a>
+                      <a href="#contact">Home</a>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-social">
+            <hr class="social-line-left">
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-square-youtube"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <hr class="social-line-right">
+          </div>
+
+          <!-- Bottom Section -->
+          <div class="footer-bottom">
+              <p>© 2024 Dycetix. All Rights Reserved.</p>
+              <p>
+                  <a href="#privacy">Privacy Policy</a> |
+                  <a href="#help">Help</a> |
+                  <a href="#legal">Terms of Use</a>
+              </p>
+          </div>
+        <!-- </div> -->
+      </footer>
+      <!-- end of footer section -->  
+    </div>
+    <!-- end of wrapper -->
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script src="dycetix-user-interface.js"></script>
+    
+  </body> <!-- end of body -->
+</html><!-- end of index structure -->

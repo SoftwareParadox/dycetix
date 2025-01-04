@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dycetix</title>
+    <link rel="stylesheet" href="dycetix-index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
+    <!-- web structure-->
+    <div class="wrapper">
+      <!-- box to display the web logo, search bar, and navigation bar  -->
+      <div class="menu-container" id="menu-scroll">
+
+        <!-- menu-data helps style things perfectly -->
+        <div class="menu-data">
+          <a href="index.html" class="logo"></a>
+
+          <!-- nav toggle for small screen -->
+          <div class="contact-toggle-wrapper">
+            <div class="nav-toggle" id="nav-toggle">
+              <i class="fa-solid fa-bars nav-burger"></i>
+              <i class="fa-solid fa-x nav-close"></i>
+            </div>
+            <a href="#sign-up" class="contact-us"><i class="fa-solid fa-phone"></i></a>
+          </div>
+          <!-- end of nav toggle for small screens -->
+      
+          <!-- Navigation Bar Starts -->
+          <nav class="menu-bar" id="menu-bar-id">
+            <ul class="menu-bar-list">
+      
+              <!-- About Us Section -->
+              <li class="about">
+                <a class="menu-list">About Us<i class="fas fa-chevron-down icon dropdown-arrow"></i></a>
+                <ul class="submenu-list">
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="core-values.html">Core Values</a></li>
+                  <li><a href="mission-vision.html">Mission & Vision</a></li>
+                  <li><a href="team.html">Our Team</a></li>
+                  <li><a href="news.html">News</a></li>
+                  <li><a href="career.html">Career Opportunities</a></li>
+                </ul>
+              </li>
+      
+              <!-- Services Section -->
+              <li class="services">
+                <a class="menu-list">Services<i class="fas fa-chevron-down icon dropdown-arrow"></i></a>
+                <div class="services-sub-menu">
+                  <div class="submenu-group">
+                    <strong>
+                      Software Development
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="custom-software-development.html">Custom-made software development</a></li>
+                      <li><a href="webdevelopment.html">Web development</a></li>
+                      <li><a href="mobiledevelopment.html">Mobile development</a></li>
+                      <li><a href="desktopdevelopment.html">Desktop development</a></li>
+                      <li><a href="databasedevelopment.html">Database development</a></li>
+                      <li><a href="clouddevelopment.html">Cloud Development</a></li>
+                      <li><a href="apidevelopment.html">API Development</a></li>
+                      <li><a href="softwaretesting.html">Software Testing</a></li>
+                    </ul>
+                  </div>
+                  <div class="submenu-group">
+                    <strong>
+                      Developers for Hire
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="webdevelopment.html">Web Developers (JavaScript, PHP)</a></li>
+                      <li><a href="androiddevelopment.html">Android Developers (Java)</a></li>
+                      <li><a href="iosdevelopment.html">iOS Developers (Swift)</a></li>
+                      <li><a href="desktopdevelopment.html">Desktop Developers (C#, C++)</a></li>
+                      <li><a href="backenddevelopment.html">Backend Developers (Python, Database Design)</a></li>
+                    </ul>
+                  </div>
+                  <div class="submenu-group">
+                    <strong>
+                      IT Support and Maintenance
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="#">Software Maintenance</a></li>
+                      <li><a href="#">Application Maintenance</a></li>
+                      <li><a href="#">Website Maintenance</a></li>
+                      <li><a href="#">Patch Management</a></li>
+                      <li><a href="#">Security Assistance</a></li>
+                      <li><a href="#">Help Desk Support</a></li>
+                      <li><a href="#">System Administration</a></li>
+                      <li><a href="#">Backup & Recovery</a></li>
+                    </ul>
+                  </div>
+                  <div class="submenu-group">
+                    <strong>
+                      Graphic Design
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="#">Business Cards</a></li>
+                      <li><a href="#">Flyers</a></li>
+                      <li><a href="#">Logos & Branding</a></li>
+                      <li><a href="#">Brochures & Posters</a></li>
+                      <li><a href="#">Social Media Graphics</a></li>
+                      <li><a href="#">Packaging Design</a></li>
+                      <li><a href="#">Web Graphics</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+      
+              <!-- Technologies Section -->
+              <li class="technologies">
+                <a class="menu-list">Technologies<i class="fas fa-chevron-down icon dropdown-arrow"></i></a>
+                <div class="technologies-sub-menu">
+                  <div class="submenu-group">
+                    <strong>
+                      Programming Languages
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="javascript.html">JavaScript</a></li>
+                      <li><a href="#">Java</a></li>
+                      <li><a href="#">C# / .NET</a></li>
+                      <li><a href="#">PHP</a></li>
+                      <li><a href="#">Python</a></li>
+                      <li><a href="#">C++</a></li>
+                    </ul>
+                  </div>
+                  <div class="submenu-group">
+                    <strong>
+                      Frameworks and Libraries
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="#">React (JavaScript)</a></li>
+                      <li><a href="#">Angular (JavaScript)</a></li>
+                      <li><a href="#">Laravel (PHP)</a></li>
+                      <li><a href="#">ASP.NET (C#)</a></li>
+                    </ul>
+                  </div>
+                  <div class="submenu-group">
+                    <strong>
+                      Database Technologies
+                      <i class="fa fa-plus"></i>
+                    </strong>
+                    <ul class="submenu-list">
+                      <li><a href="#">MySQL</a></li>
+                      <li><a href="#">phpMyAdmin</a></li>
+                      <li><a href="#">SQL Server</a></li>
+                      <li><a href="#">Oracle</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+      
+              <!-- Industries Section -->
+              <li class="industries">
+                <a class="menu-list">Industries<i class="fas fa-chevron-down icon dropdown-arrow"></i></a>
+                <ul class="submenu-list">
+                  <li><a href="retailer.html">Retailer Sector</a></li>
+                  <li><a href="#">Banking and Finance</a></li>
+                  <li><a href="#">Insurance</a></li>
+                  <li><a href="#">Education</a></li>
+                  <li><a href="#">Healthcare</a></li>
+                  <li><a href="#">Manufacturing</a></li>
+                  <li><a href="#">Transportation and Logistics</a></li>
+                  <li><a href="#">Technology and Media</a></li>   
+                </ul>
+              </li>
+      
+              <!-- Get In Touch Button -->
+              <li id="signin">
+                <button class="get-in-touch" onclick="window.location.href='signin.html'">Get In Touch</button>
+              </li>
+            </ul>
+          </nav> <!-- Navigation Bar Ends -->
+        </div> <!-- menu-data ends here -->
+      </div><!-- menu-container ends here -->
+      
+      <!-- beginning of hero sections -->
+      <div class="hero">
+          <div class="hero-text-box">
+            <div class="hero-text-header">
+              <p>Transform your visions into seamless digital solutions with Dycetix: Your trusted partner in creating custom software solutions.</p>
+            </div>
+            <div class="btn-consultation-container">
+                <button class="btn-consultation" onclick="window.location.href='#'">
+                    <i class="fa-regular fa-comment"></i> Request a Free Consultation<i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+            <!-- <div class="scroll-indicator">
+              <span>Scroll Down</span>
+              <i class="fa-solid fa-down-long"></i>
+            </div>                     -->
+          </div>
+      </div>
+      <!-- end of hero -->
+
+      <section class="why-us">
+        <div class="why-us-container">
+          <div class="why-us-image">
+            <img src="index-hero1.jpg" alt="Why Choose Us">
+          </div>
+          <div class="why-us-text">
+            <h2>Why Choose Us?</h2>
+            <p>
+              At Dycetix, we prioritize your vision. We aim to deliver seamless digital solutions that perfectly align with your business goals. 
+              Our team ensures that every project is tailored to meet your unique needs, and we work relentlessly to bring your ideas to life.
+            </p>
+            <p>
+              With a strong focus on innovation and efficiency, Dycetix adopts the latest technologies to ensure your solutions are not only cutting-edge but also scalable and sustainable. 
+              We guide you through every phase, from conceptualization to post-launch support, ensuring a smooth experience.
+            </p>
+            <p>
+              Our commitment to transparency, reliability, and customer satisfaction makes us the partner you can trust. 
+              We work collaboratively, keep you informed, and always put your best interests at the forefront of everything we do. Choose Dycetix for results that exceed expectations.
+            </p>
+            <div class="why-us-cta">
+              <p>
+                Curious about how we can help you achieve more? Let’s start a conversation and explore solutions tailored to your goals. 
+                <a href="#contact">Reach out today</a> and let’s make it happen.
+              </p>
+            </div>            
+          </div>
+        </div>
+      </section>
+      <div class="benefits">
+        <div class="benefits-container">
+          <div class="benefits-text">
+            <h2>Benefits of Choosing Dycetix</h2>
+            <div class="benefits-boxes">
+              <div class="benefit-box">Custom Solutions</div>
+              <div class="benefit-box">Expert Team</div>
+              <div class="benefit-box">Scalability</div>
+              <div class="benefit-box">Cutting-Edge Tech</div>
+            </div>
+            <!-- <div class="contact-us-button-container">
+              <button class="contact-us-button">Contact Us</button>
+            </div> -->
+          </div>
+          <div class="benefits-image">
+            <img src="index-hero.jpg" alt="Benefit Image">
+          </div>
+        </div>
+      </div>
+      
+      <section class="our-expertise">
+        <div class="our-expertise-container">
+          <div class="our-expertise-image">
+            <img src="our-expertise.jpg.crdownload" alt="Expertise Image">
+          </div>
+          <div class="our-expertise-text">
+            <h2>Our Expertise</h2>
+            <p>
+              With a strong focus on software development, IT support and maintenance, and graphic design, our team ensures scalable, secure, and high-performing solutions. 
+              From initial concept to final execution, we bring your vision to life with cutting-edge technology and creative problem-solving
+            </p>
+            <p>
+              Whether you need to build from scratch or improve existing systems, our team is here to help you achieve your goals with excellence.
+            </p>
+            <div class="our-expertise-cta">
+              <p>
+                Looking for a partner to bring your ideas to life? Let’s work together to create innovative solutions tailored to your business needs. 
+                <a href="#contact">Get in touch with us</a> and let’s get started.
+              </p>
+            </div>            
+          </div>
+        </div>
+      </section>
+      <section class="core-services">
+        <div class="core-services-container">
+          <!-- Text Section -->
+          <div class="core-services-text">
+            <h2>Our Core Services</h2>
+            <p>
+              At Dycetix, we offer comprehensive services to meet your business's unique needs. From development to design, we are your trusted partner in technology.
+            </p>
+            <ul>
+              <li><strong>Software Development:</strong> Custom solutions for web, mobile and desktop platforms.</li>
+              <li><strong>IT Support and Maintenance:</strong> Reliable support to keep your systems running smoothly.</li>
+              <li><strong>Graphic Design:</strong> Creative designs that make your brand stand out.</li>
+            </ul>
+            <h2>Explore Core Services below:</h2>
+          </div>
+        </div>
+      </section>
+      <section class="software-development-services">
+        <div class="software-development-services-container">
+          <div class="software-development-description-container">
+            <h2 class="software-development-description-header">What is Software Development?</h2>
+            <p class="software-development-description-paragraph">
+              Software development is the process of designing, creating, deploying, and maintaining applications or systems to solve specific user needs. 
+              It involves programming, testing, and ongoing improvements to deliver robust and scalable solutions.
+            </p>
+            <div class="software-development-cta">
+              <p>
+                Want to build the perfect solution for your business? Our team is ready to help you create innovative software tailored to your needs. 
+                <a href="contact.html">Contact us now</a> to start your journey with a free consultation.
+              </p>
+            </div>            
+          </div>
+          <div class="software-development-carousel-container">
+            <!-- First batch of carousel items -->
+            <div class="software-development-carousel">
+              <a href="custom-software-development.html" class="software-development-carousel-item">
+                <i class="fas fa-code"></i>
+                <p>Custom software development</p>
+              </a>
+              <a href="web-development.html" class="software-development-carousel-item">
+                <i class="fas fa-laptop-code"></i>
+                <p>Web development</p>
+              </a>
+              <a href="mobile-development.html" class="software-development-carousel-item">
+                <i class="fas fa-mobile-alt"></i>
+                <p>Mobile development</p>
+              </a>
+              <a href="desktop-development.html" class="software-development-carousel-item">
+                <i class="fas fa-desktop"></i>
+                <p>Desktop development</p>
+              </a>
+              <a href="database-development.html" class="software-development-carousel-item">
+                <i class="fas fa-database"></i>
+                <p>Database development</p>
+              </a>
+              <a href="cloud-development.html" class="software-development-carousel-item">
+                <i class="fas fa-cloud"></i>
+                <p>Cloud Development</p>
+              </a>
+              <a href="api-integration-services.html" class="software-development-carousel-item">
+                <i class="fas fa-plug"></i>
+                <p>API & Integration Services</p>
+              </a>
+              <a href="software-testing.html" class="software-development-carousel-item">
+                <i class="fas fa-vials"></i>
+                <p>Software Testing</p>
+              </a>
+            </div>
+            
+            <!-- Duplicate carousel items for infinite scroll -->
+            <div class="software-development-carousel">
+              <a href="custom-software-development.html" class="software-development-carousel-item">
+                <i class="fas fa-code"></i>
+                <p>Custom software development</p>
+              </a>
+              <a href="web-development.html" class="software-development-carousel-item">
+                <i class="fas fa-laptop-code"></i>
+                <p>Web development</p>
+              </a>
+              <a href="mobile-development.html" class="software-development-carousel-item">
+                <i class="fas fa-mobile-alt"></i>
+                <p>Mobile development</p>
+              </a>
+              <a href="desktop-development.html" class="software-development-carousel-item">
+                <i class="fas fa-desktop"></i>
+                <p>Desktop development</p>
+              </a>
+              <a href="database-development.html" class="software-development-carousel-item">
+                <i class="fas fa-database"></i>
+                <p>Database development</p>
+              </a>
+              <a href="cloud-development.html" class="software-development-carousel-item">
+                <i class="fas fa-cloud"></i>
+                <p>Cloud Development</p>
+              </a>
+              <a href="api-integration-services.html" class="software-development-carousel-item">
+                <i class="fas fa-plug"></i>
+                <p>API & Integration Services</p>
+              </a>
+              <a href="software-testing.html" class="software-development-carousel-item">
+                <i class="fas fa-vials"></i>
+                <p>Software Testing</p>
+              </a>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="faq-section" class="faq-section">
+        <div class="faq-section-content-container">
+          <div class="faq-image">
+            <img src="question-mark.svg" alt="faq-illustration">
+          </div>
+          <div class="faq-container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+              <button class="faq-question">
+                What services does Dycetix offer?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Dycetix provides software development, IT support and maintenance, and graphic design services.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">
+                How long does it take to complete a project?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>The timeline depends on the project’s complexity, but we aim to deliver efficiently while maintaining quality.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">
+                Do you provide support after project completion?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Yes, we offer ongoing support and maintenance services to ensure your solutions run smoothly.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">
+                Can you work with a limited budget?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Absolutely! We tailor solutions to fit your budget without compromising quality.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">
+                What industries does Dycetix serve?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Dycetix serves a wide range of industries, including technology, healthcare, education, retail, and more. 
+                  Our solutions are tailored to meet the unique needs of businesses from various sectors.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">
+                What makes Dycetix different from other service providers?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Dycetix focuses on personalized solutions, transparent communication, and cutting-edge technology to 
+                  ensure our clients achieve their goals efficiently and effectively.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">
+                  How does Dycetix ensure the quality of its projects?
+                  <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                  <p>We have a rigorous quality assurance process, including code reviews, automated testing, and client feedback, to ensure every project meets the highest standards of excellence.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    Can Dycetix handle projects of all sizes?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes, whether it's a small app or a large-scale enterprise solution, we have the expertise and resources to handle projects of any size.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-we-work" class="work-section">
+        <div class="work-container">
+          <div class="header-with-image">
+            <img class="header-background" src="how-we-work.jpg" alt="How We Work Background">
+            <div class="header-content">
+              <h2>How We Work</h2>
+              <p>Our streamlined process ensures your project's success every step of the way.</p>
+            </div>
+          </div>
+            <div class="work-steps">
+                <!-- Step 1: Initial Consultation -->
+                <div class="step">
+                    <div class="step-graphic">
+                        <h3>Step 1</h3>
+                    </div>
+                    <div class="step-content">
+                        <h3>Initial Consultation</h3>
+                        <p>We discuss your needs and goals to understand your vision and establish the scope of the project.</p>
+                    </div>
+                </div>
+                
+                <!-- Step 2: Discovery Phase -->
+                <div class="step">
+                    <div class="step-graphic">
+                        <h3>Step 2</h3>
+                    </div>
+                    <div class="step-content">
+                        <h3>Discovery Phase</h3>
+                        <p>We analyze your requirements, research your industry, and define the project's key objectives.</p>
+                    </div>
+                </div>
+                
+                <!-- Step 3: Plan Development -->
+                <div class="step">
+                    <div class="step-graphic">
+                        <h3>Step 3</h3>
+                    </div>
+                    <div class="step-content">
+                        <h3>Plan Development</h3>
+                        <p>We create a detailed roadmap, including timelines, resources, and a clear plan to achieve your objectives efficiently.</p>
+                    </div>
+                </div>
+                
+                <!-- Step 4: Design & Prototyping -->
+                <div class="step">
+                    <div class="step-graphic">
+                        <h3>Step 4</h3>
+                    </div>
+                    <div class="step-content">
+                        <h3>Design & Prototyping</h3>
+                        <p>Our team creates wireframes and prototypes, giving you a visual representation of how your project will look and feel.</p>
+                    </div>
+                </div>
+                
+                <!-- Step 5: Project Execution -->
+                <div class="step">
+                    <div class="step-graphic">
+                        <h3>Step 5</h3>
+                    </div>
+                    <div class="step-content">
+                        <h3>Project Execution</h3>
+                        <p>We start building your solution, utilizing the latest technologies and best practices to ensure a high-quality result.</p>
+                    </div>
+                </div>
+                
+                <!-- Step 6: Final Refinement & Launch -->
+                <div class="step">
+                    <div class="step-graphic">
+                        <h3>Step 6</h3>
+                    </div>
+                    <div class="step-content">
+                        <h3>Final Refinement & Launch</h3>
+                        <p>We perform final testing, polish the details, and launch the project, ensuring it meets your expectations and is ready for users.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- end of how we work section -->
+      <section class="pricing">
+        <div class="pricing-content-container">
+          <!-- Text Content -->
+          <div class="pricing-container">
+            <h2 class="pricing-title">Our Software Development Pricing</h2>
+            <p class="pricing-subtitle">
+              We offer transparent pricing to give you an idea of costs. Please note, prices may vary based on complexity and requirements.
+            </p>
+      
+            <div class="pricing-list">
+              <div class="pricing-item">
+                <h3 class="pricing-service">Custom Software Development</h3>
+                <p class="pricing-amount">Starting from <span>$300</span></p>
+                <p class="pricing-note">Costs vary based on project scale and unique requirements.</p>
+                <button class="learn-more-btn">Learn More</button>
+              </div>
+              <div class="pricing-item">
+                <h3 class="pricing-service">Website Development</h3>
+                <p class="pricing-amount">Starting from <span>$200</span></p>
+                <p class="pricing-note">Prices vary depending on the design, features, and functionality required.</p>
+                <button class="learn-more-btn">Learn More</button>
+              </div>
+              <div class="pricing-item">
+                <h3 class="pricing-service">Mobile App Development</h3>
+                <p class="pricing-amount">Starting from <span>$500</span></p>
+                <p class="pricing-note">Final costs depend on platform (iOS/Android) and app complexity.</p>
+                <button class="learn-more-btn">Learn More</button>
+              </div>
+              <div class="pricing-item">
+                <h3 class="pricing-service">Desktop Development</h3>
+                <p class="pricing-amount">Starting from <span>$400</span></p>
+                <p class="pricing-note">Pricing depends on OS compatibility and the required features.</p>
+                <button class="learn-more-btn">Learn More</button>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Image Section -->
+          <div class="pricing-image">
+            <img src="pricing.jpg" alt="Pricing Illustration">
+          </div>
+        </div>
+      </section>
+          
+      <section id="get-quote" class="quote-section">
+        <div class="get-quote-content-container">
+          <div class="get-quote-img">
+            <img src="need-quote.png" alt="quote-illustration">
+          </div>
+          <div class="quote-container">
+            <!-- Text Content -->
+            <div class="quote-text">
+              <h2>Get a Custom Quote for Your Project</h2>
+              <p>Fill out the form below, and our team will get back to you with a personalized quote!</p>
+            </div>
+            <!-- Quote Form -->
+            <form class="quote-form" action="/submit-quote" method="POST" enctype="multipart/form-data">
+              <div class="form-group">
+                <label for="name" class="form-header">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-header">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone" class="form-header">Your Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+              </div>
+              <div class="form-group">
+                <label for="project-details" class="form-header">Project Details</label>
+                <textarea id="project-details" name="project-details" placeholder="Tell us about your project requirements..." required></textarea>
+              </div>
+              <div class="form-group">
+                <label for="file-upload" class="form-header">Attach Files (optional)</label>
+                <div class="file-upload-wrapper">
+                  <p class="file-requirements">Accepted file formats: JPG, PNG, PDF, DOC</p>
+                  <label for="file-upload" class="upload-label">
+                    <img src="attach.png" alt="Upload Icon" class="upload-icon">
+                    <span class="tooltip">Attach your files</span>
+                  </label>
+                  <input type="file" id="file-upload" name="file-upload" multiple accept=".jpg,.jpeg,.png,.pdf,.doc,.docx">
+                  <small class="upload-instructions">Max: 5 files, 2MB each</small>
+                  <div class="file-list" id="file-list"></div>
+                </div>
+              </div>
+              <button type="submit" class="btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- beginning of footer section -->
+      <footer class="footer-container">
+        <!-- <div class="footer-content-container"> -->
+          <!-- Footer Header -->
+          <div class="footer-header">
+              <div class="footer-text">
+                  <h2>We're Here to Make Things Happen</h2>
+                  <p>Let’s work together to build something extraordinary. Whether you need a consultation, a custom solution, or just have questions, we’re here to help.</p>
+              </div>
+          </div>
+      
+          <!-- Main Footer Section -->
+          <div class="footer-main">
+              <!-- Left Section -->
+              <div class="footer-left">
+                  <a href="index">
+                    <img src="dycetix-logo.png" alt="Dycetix Logo" class="footer-logo">
+                  </a>
+                    <!-- <h2>Dycetix</h2> -->
+                    <p>Transforming ideas into reality, one solution at a time.</p>
+              </div>
+      
+              <!-- Right Sections -->
+              <div class="footer-right">
+                  <!-- Contact Section -->
+                  <div class="footer-section">
+                      <h3>Contact Us</h3>
+                      <!-- <p>Email: contact@dycetix.com</p>
+                      <p>Phone: +123-456-7890</p> -->
+                      
+                      <a href="#sign-up" ><i class="fa-solid fa-phone phone-footer"></i>+123-456-7890</a>
+                      <a href="#sign-up"><i class="fa-brands fa-whatsapp"></i>+123-456-7890</a>
+                      <a href="#sign-in"><i class="fa-regular fa-envelope"></i>contact@dycetix.com</a>
+                  </div>
+      
+                  <!-- Account Section -->
+                  <div class="footer-section">
+                      <h3>Account</h3>
+                      <a href="#sign-in">Sign In</a>
+                      <a href="#sign-up">Sign Up</a>
+                  </div>
+      
+                  <!-- Sitemap Section -->
+                  <div class="footer-section">
+                      <h3>Sitemap</h3>
+                      <a href="#about">About Us</a>
+                      <a href="#services">Services</a>
+                      <a href="#services">Technologies</a>
+                      <a href="#contact">Get In Touch</a>
+                      <a href="#contact">Home</a>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-social">
+            <hr class="social-line-left">
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-square-youtube"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <hr class="social-line-right">
+          </div>
+
+          <!-- Bottom Section -->
+          <div class="footer-bottom">
+              <p>© 2024 Dycetix. All Rights Reserved.</p>
+              <p>
+                  <a href="#privacy">Privacy Policy</a> |
+                  <a href="#help">Help</a> |
+                  <a href="#legal">Terms of Use</a>
+              </p>
+          </div>
+        <!-- </div> -->
+      </footer>
+      <!-- end of footer section -->  
+    </div>
+    <!-- end of wrapper -->
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script src="dycetix-user-interface.js"></script>
+    
+  </body> <!-- end of body -->
+</html><!-- end of index structure -->
