@@ -98,7 +98,7 @@
     display: inline-flex;
     width: 10rem;
     height: 5rem;
-    background-image: url('dycetix-logo.png');
+    background-image: url('dycetix-logo-min.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -649,7 +649,7 @@
     /* background-image: url('hero.jpeg'); */
     background-size: cover;
     background-position: center;
-    background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url('final-hero.jpg') center center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url('final-hero-min.jpg') center center / cover no-repeat;
     margin: 0;
     /* min-height: 100%;  */
     width: 100%;
@@ -1170,7 +1170,7 @@
   
   /* software development corousel */
   .software-development-services {
-    background-image: url('software-background.jpg'); 
+    background-image: url('software-background-min.jpg'); 
     background-size: cover; 
     background-position: center;
     background-attachment: fixed; 
@@ -1374,7 +1374,7 @@
     justify-content: center; 
     align-items: center; 
     padding: 20px;
-    background-image: url('abstract-faq.jpg'); 
+    background-image: url('abstract-faq-min.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -2180,7 +2180,7 @@
     bottom: -10px;
     width: calc(100% + 20px);
     height: calc(100% + 20px);
-    background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url('about-us-hero.jpg') center center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url('about-us-hero-min.jpg') center center / cover no-repeat;
     filter: blur(3px);
     z-index: -1;
   }
@@ -2794,7 +2794,7 @@
   /* Retailer Introduction Section */
   
   .retailer-introduction {
-    background-image: url('retailer.jpg'); /* Add a background image */
+    background-image: url('retailer-min.jpg'); /* Add a background image */
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -3860,7 +3860,7 @@
 
   .tech-carousel-wrapper-javascript {
     display: flex;
-    background-image: url('javascript-technology.jpg');
+    background-image: url('javascript-technology-min.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -4348,14 +4348,14 @@
     background: #0056b3;
   }
   #javascript-faq-section {
-    background: url('keyboard.jpg') repeat, #5a0260;
+    background: url('keyboard-min.jpg') repeat, #5a0260;
     color: #333;
   }
 
   /* services code start here */
   /* custom software development code start here */
   .custom-software-section-opening {
-    background-image: url('keyboard-custom.jpg');
+    background-image: url('keyboard-custom-min.jpg');
     padding: 60px 20px;
     text-align: center;
     position: relative;
@@ -4366,7 +4366,7 @@
   /* background-image: url('hero.jpeg'); */
   background-size: cover;
   background-position: center;
-  background:url('keyboard.jpg') center center / cover no-repeat;
+  background:url('keyboard-min.jpg') center center / cover no-repeat;
   margin: 0;
   /* min-height: 100%;  */
   width: 100%;
